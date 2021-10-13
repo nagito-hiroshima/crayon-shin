@@ -25,8 +25,7 @@ function kureyon(){
 function se() {
         $('.Area').css('font-size','85px');  
         let text     = document.querySelector('#text')    
-        //var music = new Audio('./assets/タイトル.mp3');
-        var music = new Audio('https://github.com/nagito-hiroshima/crayon-shin/blob/main/assets/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB.mp3');
+        var music = new Audio('./assets/タイトル.mp3');
         music.play();
         // 発言を作成
         const uttr = new SpeechSynthesisUtterance(text.value+"っ！")
