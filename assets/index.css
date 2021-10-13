@@ -48,14 +48,23 @@
     top: 440px;
     left: 450px;
     z-index: 2;
-    display: none;
 }
 #Area2{
     position:absolute;
     top: 550px;
     right: 450px;
     z-index: 2;
-    display: none;
+}
+#Area3{
+    position:absolute;
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 75px;
+    width: 2000px;
 }
 
 
