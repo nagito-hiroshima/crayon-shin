@@ -28,7 +28,7 @@ function se() {
         var music = new Audio('assets/タイトル.mp3');
         music.play();
         // 発言を作成
-        const uttr = new SpeechSynthesisUtterance(text.value)
+        const uttr = new SpeechSynthesisUtterance(text.value+"っ！")
         // 速度 0.1-10 初期値:1 (倍速なら2, 半分の倍速なら0.5)
         
             if (text.value.length>=15){
