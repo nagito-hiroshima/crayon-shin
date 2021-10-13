@@ -25,7 +25,7 @@ function kureyon(){
 function se() {
         $('.Area').css('font-size','85px');  
         let text     = document.querySelector('#text')    
-        var music = new Audio('assets/タイトル.mp3');
+        var music = new Audio('./assets/タイトル.mp3');
         music.play();
         // 発言を作成
         const uttr = new SpeechSynthesisUtterance(text.value+"っ！")
