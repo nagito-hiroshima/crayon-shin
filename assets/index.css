@@ -3,13 +3,80 @@
     text-align: center;
 }
 .navi{
-    height: 90px;
+    height: 80px;
     background-color: #212529;
+    
+}
+
+.title{
+    font-family: 'Dela Gothic One', cursive;
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    letter-spacing: 4px;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 .main{
+    margin-top: 20px;
 
 }
-.main img{
-height: 600px;
+.box input{
+    font-size: 40px;
+    padding: 20px;
+    width: 70vw;
+    margin-bottom: 20px;
 }
+
+.main img{
+    height: 600px;
+    position: relative;
+}
+
+.view{
+    font-family: 'Kiwi Maru', serif;
+    color: purple;
+    font-size: 85px;
+}
+
+#Area{
+    position:absolute;
+    top: 440px;
+    left: 450px;
+    z-index: 2;
+    display: none;
+}
+#Area2{
+    position:absolute;
+    top: 550px;
+    right: 450px;
+    z-index: 2;
+    display: none;
+}
+
+
+
+.btn01 {
+    display:block;  
+    width: 180px;
+    border: 2px solid #333;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    padding:16px;
+    text-align: center;
+    border-radius: 4px;
+    transition: .4s;
+    margin: 0  auto ;
+    margin-bottom: 20px;
+
+  }
+  .btn01:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #FFF;
+  }

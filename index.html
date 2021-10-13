@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    
     <link rel="stylesheet" type="text/css" href="assets/index.css">
-    <title>Document</title>
+    <title>クレヨンしんちゃんタイトルジェネレーター | 自作ジェネレーター
+    </title>
+    <script type="text/javascript" src="/assets/index.js"></script>
 </head>
 <body>
     <div class="navi">
+        <div class="title">
+            クレヨンしんちゃんタイトルジェネレーター
+        </div>
     </div>
     <div class="main">
-        <img src="assets/back.jpeg">
-</div>
+        <h3>空想タイトル</h3>
+        <div class="box">
+            <input type="text" id="text" value="オラの母ちゃんは　すごいゾ" oninput="kureyon()"></p>
+        </div>
+        <button id="speak-btn" onclick="se()"class="btn01">再生</button>
+        <div class="view">
+            <div id="Area" class="Area">
+                オラの母ちゃんは
+            </div>
+            <div id="Area2" class="Area">
+                すごいゾ
+            </div>
+            <img src="assets/back.jpeg">
+        </div>
+    </div>
 </body>
 </html>
