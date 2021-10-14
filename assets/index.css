@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     text-align: center;
 }
-.navi{
+
+.navi {
     height: 80px;
     background-color: #212529;
-    
 }
 
-.title{
+.title {
     font-family: 'Dela Gothic One', cursive;
     color: white;
     position: absolute;
@@ -21,42 +21,46 @@
     -ms-transform: translate(-50%, -50%);
 }
 
-.main{
+.main {
     margin-top: 20px;
-
 }
-.box input{
+
+.box input {
     font-size: 40px;
     padding: 20px;
     width: 70vw;
     margin-bottom: 20px;
 }
 
-.main img{
+.main img {
     height: 600px;
     position: relative;
 }
 
-.view{
+.view {
     font-family: 'Kiwi Maru', serif;
     color: purple;
     font-size: 85px;
 }
 
-#Area{
-    position:absolute;
+#Area {
+    position: absolute;
     top: 440px;
     left: 450px;
     z-index: 2;
+    display: none;
 }
-#Area2{
-    position:absolute;
+
+#Area2 {
+    position: absolute;
     top: 550px;
     right: 450px;
     z-index: 2;
+    display: none;
 }
-#Area3{
-    position:absolute;
+
+#Area3 {
+    position: absolute;
     top: 550px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -67,25 +71,23 @@
     width: 2000px;
 }
 
-
-
 .btn01 {
-    display:block;  
+    display: block;
     width: 180px;
     border: 2px solid #333;
     font-size: 16px;
     color: #333;
     font-weight: bold;
-    padding:16px;
+    padding: 16px;
     text-align: center;
     border-radius: 4px;
     transition: .4s;
-    margin: 0  auto ;
+    margin: 0 auto;
     margin-bottom: 20px;
+}
 
-  }
-  .btn01:hover {
+.btn01:hover {
     background-color: #333;
     border-color: #333;
     color: #FFF;
-  }
+}
